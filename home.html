@@ -1,0 +1,38 @@
+<!DOCTPYE html>
+<html>
+
+<head>
+    <title>Traveller</title>
+    <meta charset="utf-8">
+    <style>
+        html,
+        body,
+        #gMaps {
+            height: 85%;
+            width: 80%;
+            margin: 0px;
+            padding: 0px
+        }
+    </style>
+
+</head>
+
+<body>
+    <fb:login-button autologoutlink="true"></fb:login-button>
+
+    <div id="selectAlbum">
+        <ul id="albumList">
+        </ul>
+    </div>
+
+    <div id="result"></div>
+
+    <div id="gMaps"></div>
+
+    <!-- Init FB JavaScript SDK - Start -->
+    <script language="javascript" type="text/javascript" src="facebookController.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+    <script language="javascript" type="text/javascript" src="gMapsController.js"></script>
+</body>
+
+</html>
